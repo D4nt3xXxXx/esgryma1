@@ -1,0 +1,43 @@
+/*
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+*/
+@import 'main';
+@import '~vue-datetime/dist/vue-datetime.css';
+
+.vdatetime-popup {
+  z-index: 50000;
+}
+
+.vdatetime-time-picker__list::-webkit-scrollbar {
+  width: 7px;
+}
+
+.form-control {
+  width: 100% !important;
+}
+
+.select2-container .select2-selection--single {
+  height: 38px !important;
+}
+
+.select2-dropdown {
+  z-index: 53001 !important;
+}
+
+.swal2-container {
+  z-index: 53001;
+}
+
+.select2 {
+  width: 100% !important;
+}
+.swal2-container {
+  z-index: 53002!important;
+}
